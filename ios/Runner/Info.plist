@@ -1,0 +1,10 @@
+<key>NSCameraUsageDescription</key>
+<string>NEXORA CHQT needs camera for photos and video calls</string>
+<key>NSMicrophoneUsageDescription</key>
+<string>NEXORA CHQT needs microphone for calls and voice messages</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>NEXORA CHQT needs photo access to share images</string>
+<key>NSContactsUsageDescription</key>
+<string>NEXORA CHQT uses contacts to find friends</string>
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>NEXORA CHQT uses location for sharing in chats</string>

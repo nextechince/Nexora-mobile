@@ -1,0 +1,98 @@
+name: nexora_chqt
+description: A premium messaging app
+version: 1.0.0+1
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  riverpod: ^2.4.0
+  flutter_riverpod: ^2.4.0
+  riverpod_annotation: ^2.3.0
+  go_router: ^13.0.0
+  supabase_flutter: ^2.5.0
+  hive_flutter: ^1.1.0
+  flutter_secure_storage: ^9.0.0
+  intl: ^0.18.1
+  image_picker: ^1.0.4
+  file_picker: ^6.1.1
+  permission_handler: ^11.0.0
+  audioplayers: ^5.2.1
+  video_player: ^2.8.1
+  webview_flutter: ^4.4.2
+  flutter_staggered_grid_view: ^0.7.0
+  shimmer: ^3.0.0
+  lottie: ^3.0.0
+  rive: ^0.12.0
+  glassmorphism: ^3.0.0
+  font_awesome_flutter: ^10.6.0
+  country_code_picker: ^3.0.0
+  fluttertoast: ^8.2.4
+  badge: ^3.1.2
+  url_launcher: ^6.2.0
+  share_plus: ^7.2.1
+  flutter_slidable: ^3.0.1
+  cached_network_image: ^3.3.1
+  flutter_local_notifications: ^16.0.0
+  firebase_messaging: ^14.7.0
+  agora_rtc_engine: ^6.3.0
+  flutter_svg: ^2.0.9
+  equatable: ^2.0.5
+  json_annotation: ^4.8.1
+  freezed_annotation: ^2.4.1
+  paystack_pay: ^2.0.0
+  flutterwave_standard: ^1.0.4
+  stripe_payment: ^4.0.0
+  flutter_dotenv: ^5.1.0
+  contacts_service: ^1.1.1
+  emoji_picker_flutter: ^1.6.0
+  package_info_plus: ^5.0.1
+  charts_flutter: ^0.12.0
+  pointycastle: ^3.7.3
+  http: ^1.1.0
+  web3dart: ^2.7.0
+  walletconnect_dart: ^0.5.0
+  qr_code_scanner: ^1.0.1
+  qr_flutter: ^4.1.0
+  local_auth: ^2.1.8
+  flutter_markdown: ^0.6.18
+  flutter_quill: ^9.2.7
+  screen_recorder: ^1.0.0
+  flutter_ffmpeg: ^0.4.0
+  google_ml_kit: ^0.16.0
+  image: ^4.0.0
+  flame: ^1.8.0
+  simple_animations: ^5.0.0
+  fl_chart: ^0.63.0
+  easy_localization: ^3.0.0
+  flutter_screen_reader: ^1.0.0
+  flutter_archive: ^5.0.0
+  audio_recorder: ^1.0.0
+  video_recorder: ^1.0.0
+  reputation_system: ^1.0.0
+  audio_effect_processor: ^1.0.0
+  window_manager: ^0.3.0
+  tray_manager: ^0.2.0
+  responsive_framework: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+  freezed: ^2.4.5
+  riverpod_generator: ^2.3.0
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/fonts/
+    - assets/icons/
+    - assets/env/
+    - assets/i18n/
+    - assets/wallpapers/
