@@ -15,7 +15,7 @@ dependencies:
   supabase_flutter: ^2.5.0
   hive_flutter: ^1.1.0
   flutter_secure_storage: ^9.0.0
-  intl: ^0.18.1
+  intl: ^0.17.0
   image_picker: ^1.0.4
   file_picker: ^6.1.1
   permission_handler: ^11.0.0
@@ -41,16 +41,17 @@ dependencies:
   equatable: ^2.0.5
   json_annotation: ^4.8.1
   freezed_annotation: ^2.4.1
+  paystack_pay: ^2.0.0
+  flutterwave_standard: ^1.0.4
+  stripe_payment: ^4.0.0
   flutter_dotenv: ^5.1.0
   package_info_plus: ^5.0.1
-  charts_flutter: ^0.12.0
   pointycastle: ^3.7.3
   http: ^1.1.0
   qr_code_scanner: ^1.0.1
   qr_flutter: ^4.1.0
   local_auth: ^2.1.8
   flutter_markdown: ^0.6.18
-  flutter_quill: ^9.2.7
   google_ml_kit: ^0.16.0
   image: ^4.0.0
   flame: ^1.8.0
