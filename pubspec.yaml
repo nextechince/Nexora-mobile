@@ -58,8 +58,6 @@ dependencies:
   window_manager: ^0.3.0
   tray_manager: ^0.2.0
   responsive_framework: ^1.0.0
-
-dependency_overrides:
   app_links: ^3.4.0
 
 dev_dependencies:
