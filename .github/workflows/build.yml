@@ -24,11 +24,10 @@ jobs:
           flutter-version: '3.16.0'
           channel: 'stable'
 
-      - name: Fix Android embedding
+      - name: Fix Android V2 Embedding
         run: |
-          if [ -f "android/app/src/main/AndroidManifest.xml" ]; then
-            sed -i 's/io.flutter.app.FlutterApplication/android.app.Application/g' android/app/src/main/AndroidManifest.xml || true
-          fi
+          sed -i 's/io.flutter.app.FlutterApplication/android.app.Application/g' android/app/src/main/AndroidManifest.xml || true
+          sed -i 's/minSdkVersion [0-9]*/minSdkVersion 23/g' android/app/build.gradle || true
 
       - name: Create .env file
         run: |
@@ -42,7 +41,7 @@ jobs:
           flutter pub get
 
       - name: Build APK
-        run: flutter build apk --release --no-tree-shake-icons
+        run: flutter build apk --release
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
