@@ -21,8 +21,14 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.22.0'
+          flutter-version: '3.16.0'
           channel: 'stable'
+
+      - name: Fix Android embedding
+        run: |
+          if [ -f "android/app/src/main/AndroidManifest.xml" ]; then
+            sed -i 's/io.flutter.app.FlutterApplication/android.app.Application/g' android/app/src/main/AndroidManifest.xml || true
+          fi
 
       - name: Create .env file
         run: |
@@ -33,7 +39,7 @@ jobs:
       - name: Clean and Get Dependencies
         run: |
           flutter clean
-          flutter pub get --no-example
+          flutter pub get
 
       - name: Build APK
         run: flutter build apk --release --no-tree-shake-icons
